@@ -1,0 +1,715 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CAMPUS is a student marketplace to buy, sell and find accommodation in Malawi.">
+
+    <title>CAMPUS | Student Marketplace</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-content">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">C</span>
+                <span>CAMPUS</span>
+            </a>
+
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="#home">Home</a>
+                <a href="#marketplace">Marketplace</a>
+                <a href="#accommodation">Accommodation</a>
+                <a href="#sell">Sell Products</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#messages" class="message-link">
+                    Messages
+                </a>
+
+                <a href="#profile" class="profile-button">
+                    My Account
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO YOUR CAMPUS MARKETPLACE</p>
+
+                    <h1>
+                        Buy. Sell.
+                        <span>Find Your Space.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Discover affordable products, connect with student
+                        sellers and find your next accommodation — all in
+                        one place.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#marketplace" class="button button-primary">
+                            Explore Marketplace
+                        </a>
+
+                        <a href="#sell" class="button button-secondary">
+                            Start Selling
+                        </a>
+                    </div>
+
+                    <div class="hero-highlights">
+                        <span>✓ Student-friendly prices</span>
+                        <span>✓ Local listings</span>
+                        <span>✓ Easy connections</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-label="Marketplace highlights">
+                    <div class="hero-card">
+                        <span class="hero-card-icon">🛍️</span>
+                        <h2>Your Campus. Your Market.</h2>
+                        <p>Everything students need in one place.</p>
+                    </div>
+
+                    <div class="floating-card">
+                        <span>🏠</span>
+                        <div>
+                            <strong>Find a room</strong>
+                            <p>Your next space awaits.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SEARCH SECTION -->
+        <section class="search-section">
+            <div class="container">
+
+                <form class="search-form" action="#marketplace" method="get">
+
+                    <div class="search-field">
+                        <label for="search">What are you looking for?</label>
+                        <input
+                            type="search"
+                            id="search"
+                            name="search"
+                            placeholder="Search phones, clothes, books..."
+                        >
+                    </div>
+
+                    <div class="search-field">
+                        <label for="location">Campus or location</label>
+                        <input
+                            type="text"
+                            id="location"
+                            name="location"
+                            placeholder="e.g. Zomba, Blantyre"
+                        >
+                    </div>
+
+                    <button type="submit" class="button button-primary">
+                        Search
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- CATEGORIES -->
+        <section class="categories-section section-padding" id="categories">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">EXPLORE CAMPUS</p>
+                        <h2>Shop by Category</h2>
+                        <p>Find what you need for student life.</p>
+                    </div>
+
+                    <a href="#marketplace" class="text-link">
+                        View all products →
+                    </a>
+                </div>
+
+                <div class="category-grid">
+
+                    <a href="#marketplace" class="category-card">
+                        <span class="category-icon">📱</span>
+                        <h3>Electronics</h3>
+                        <p>Phones and gadgets</p>
+                    </a>
+
+                    <a href="#marketplace" class="category-card">
+                        <span class="category-icon">👕</span>
+                        <h3>Fashion</h3>
+                        <p>Clothes and shoes</p>
+                    </a>
+
+                    <a href="#marketplace" class="category-card">
+                        <span class="category-icon">📚</span>
+                        <h3>Books</h3>
+                        <p>Notes and textbooks</p>
+                    </a>
+
+                    <a href="#marketplace" class="category-card">
+                        <span class="category-icon">💻</span>
+                        <h3>Computers</h3>
+                        <p>Laptops and accessories</p>
+                    </a>
+
+                    <a href="#marketplace" class="category-card">
+                        <span class="category-icon">🪑</span>
+                        <h3>Furniture</h3>
+                        <p>Room essentials</p>
+                    </a>
+
+                    <a href="#accommodation" class="category-card">
+                        <span class="category-icon">🏠</span>
+                        <h3>Accommodation</h3>
+                        <p>Rooms and hostels</p>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- MARKETPLACE PRODUCTS -->
+        <section class="marketplace-section section-padding" id="marketplace">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">STUDENT MARKETPLACE</p>
+                        <h2>Discover Products</h2>
+                        <p>Explore items listed by campus sellers.</p>
+                    </div>
+
+                    <a href="#sell" class="text-link">
+                        Sell your product →
+                    </a>
+                </div>
+
+                <div class="product-grid">
+
+                    <!-- PRODUCT 1 -->
+                    <article class="product-card">
+                        <a href="#product-phone" class="product-image">
+                            <span class="product-emoji">📱</span>
+                            <span class="product-badge">Electronics</span>
+                        </a>
+
+                        <div class="product-details">
+                            <p class="product-category">Electronics</p>
+                            <h3>
+                                <a href="#product-phone">Smartphone</a>
+                            </h3>
+
+                            <p class="product-description">
+                                A phone listed by a student seller.
+                            </p>
+
+                            <p class="product-price">MWK 85,000</p>
+
+                            <div class="product-meta">
+                                <span>📍 Malawi</span>
+                                <span>Student seller</span>
+                            </div>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Seller
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- PRODUCT 2 -->
+                    <article class="product-card">
+                        <a href="#product-shoes" class="product-image">
+                            <span class="product-emoji">👟</span>
+                            <span class="product-badge">Fashion</span>
+                        </a>
+
+                        <div class="product-details">
+                            <p class="product-category">Fashion</p>
+                            <h3>
+                                <a href="#product-shoes">Casual Sneakers</a>
+                            </h3>
+
+                            <p class="product-description">
+                                Comfortable shoes for everyday use.
+                            </p>
+
+                            <p class="product-price">MWK 25,000</p>
+
+                            <div class="product-meta">
+                                <span>📍 Malawi</span>
+                                <span>Student seller</span>
+                            </div>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Seller
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- PRODUCT 3 -->
+                    <article class="product-card">
+                        <a href="#product-books" class="product-image">
+                            <span class="product-emoji">📚</span>
+                            <span class="product-badge">Education</span>
+                        </a>
+
+                        <div class="product-details">
+                            <p class="product-category">Books</p>
+                            <h3>
+                                <a href="#product-books">Study Textbooks</a>
+                            </h3>
+
+                            <p class="product-description">
+                                Learning materials for students.
+                            </p>
+
+                            <p class="product-price">MWK 12,000</p>
+
+                            <div class="product-meta">
+                                <span>📍 Malawi</span>
+                                <span>Student seller</span>
+                            </div>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Seller
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- PRODUCT 4 -->
+                    <article class="product-card">
+                        <a href="#product-laptop" class="product-image">
+                            <span class="product-emoji">💻</span>
+                            <span class="product-badge">Technology</span>
+                        </a>
+
+                        <div class="product-details">
+                            <p class="product-category">Computers</p>
+                            <h3>
+                                <a href="#product-laptop">Student Laptop</a>
+                            </h3>
+
+                            <p class="product-description">
+                                A laptop listing for study and work.
+                            </p>
+
+                            <p class="product-price">MWK 250,000</p>
+
+                            <div class="product-meta">
+                                <span>📍 Malawi</span>
+                                <span>Student seller</span>
+                            </div>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Seller
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="center-button">
+                    <a href="#marketplace" class="button button-secondary">
+                        Explore More Products
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SELL PRODUCTS SECTION -->
+        <section class="sell-section section-padding" id="sell">
+            <div class="container sell-content">
+
+                <div class="sell-visual">
+                    <span class="sell-emoji">📦</span>
+                    <span class="sell-emoji-small">💰</span>
+                </div>
+
+                <div class="sell-text">
+                    <p class="eyebrow">YOUR PRODUCTS, YOUR BUSINESS</p>
+
+                    <h2>Turn Your Items Into Money</h2>
+
+                    <p>
+                        Have clothes, electronics, books or other items to sell?
+                        Create a listing and connect with potential buyers
+                        through CAMPUS.
+                    </p>
+
+                    <ul class="sell-benefits">
+                        <li>✓ Add your product photos</li>
+                        <li>✓ Set your price in Malawi kwacha</li>
+                        <li>✓ Include your location and description</li>
+                        <li>✓ Connect with interested buyers</li>
+                    </ul>
+
+                    <a href="#post-product" class="button button-primary">
+                        Post Your Product
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ACCOMMODATION SECTION -->
+        <section
+            class="accommodation-section section-padding"
+            id="accommodation"
+        >
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">FIND YOUR SPACE</p>
+                        <h2>Student Accommodation</h2>
+                        <p>
+                            Explore rooms, hostels and shared accommodation
+                            near your campus.
+                        </p>
+                    </div>
+
+                    <a href="#all-accommodation" class="text-link">
+                        View all rooms →
+                    </a>
+                </div>
+
+                <div class="accommodation-grid">
+
+                    <!-- ROOM 1 -->
+                    <article class="accommodation-card">
+                        <div class="room-image">
+                            <span class="room-emoji">🏠</span>
+                            <span class="product-badge">Room for rent</span>
+                        </div>
+
+                        <div class="room-details">
+                            <h3>Student Room</h3>
+
+                            <p class="room-location">
+                                📍 Campus area, Malawi
+                            </p>
+
+                            <p class="room-description">
+                                A room listing with details about facilities
+                                and availability.
+                            </p>
+
+                            <p class="room-price">
+                                MWK 35,000
+                                <span>/ month</span>
+                            </p>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Provider
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- ROOM 2 -->
+                    <article class="accommodation-card">
+                        <div class="room-image">
+                            <span class="room-emoji">🏘️</span>
+                            <span class="product-badge">Shared housing</span>
+                        </div>
+
+                        <div class="room-details">
+                            <h3>Shared Accommodation</h3>
+
+                            <p class="room-location">
+                                📍 Near campus, Malawi
+                            </p>
+
+                            <p class="room-description">
+                                Shared living space for students looking
+                                for affordable housing.
+                            </p>
+
+                            <p class="room-price">
+                                MWK 25,000
+                                <span>/ month</span>
+                            </p>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Provider
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <!-- ROOM 3 -->
+                    <article class="accommodation-card">
+                        <div class="room-image">
+                            <span class="room-emoji">🏢</span>
+                            <span class="product-badge">Hostel</span>
+                        </div>
+
+                        <div class="room-details">
+                            <h3>Student Hostel</h3>
+
+                            <p class="room-location">
+                                📍 College area, Malawi
+                            </p>
+
+                            <p class="room-description">
+                                A hostel listing with room information
+                                and rental details.
+                            </p>
+
+                            <p class="room-price">
+                                MWK 40,000
+                                <span>/ month</span>
+                            </p>
+
+                            <a href="#messages" class="button button-outline">
+                                Contact Provider
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- POST A PRODUCT FORM -->
+        <section class="post-product-section section-padding" id="post-product">
+            <div class="container">
+
+                <div class="form-container">
+                    <div class="form-heading">
+                        <p class="eyebrow">SELL ON CAMPUS</p>
+                        <h2>List Your Product</h2>
+
+                        <p>
+                            Prepare your product details. We'll connect this
+                            form to the backend when we add JavaScript.
+                        </p>
+                    </div>
+
+                    <form class="listing-form" action="#" method="post">
+
+                        <div class="form-group">
+                            <label for="product-title">Product name</label>
+
+                            <input
+                                type="text"
+                                id="product-title"
+                                name="product-title"
+                                placeholder="e.g. Samsung phone"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product-category">Category</label>
+
+                            <select
+                                id="product-category"
+                                name="product-category"
+                                required
+                            >
+                                <option value="">Choose a category</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="fashion">Fashion</option>
+                                <option value="books">Books</option>
+                                <option value="computers">Computers</option>
+                                <option value="furniture">Furniture</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product-price">Price (MWK)</label>
+
+                            <input
+                                type="number"
+                                id="product-price"
+                                name="product-price"
+                                min="0"
+                                placeholder="Enter your price"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product-location">Your location</label>
+
+                            <input
+                                type="text"
+                                id="product-location"
+                                name="product-location"
+                                placeholder="e.g. Blantyre"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product-description">
+                                Product description
+                            </label>
+
+                            <textarea
+                                id="product-description"
+                                name="product-description"
+                                rows="4"
+                                placeholder="Describe your product..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="product-image">
+                                Product photo
+                            </label>
+
+                            <input
+                                type="file"
+                                id="product-image"
+                                name="product-image"
+                                accept="image/*"
+                            >
+
+                            <small>
+                                Image uploading will be connected in a later step.
+                            </small>
+                        </div>
+
+                        <button type="submit" class="button button-primary">
+                            Submit Listing
+                        </button>
+
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- MESSAGES PLACEHOLDER -->
+        <section class="messages-section section-padding" id="messages">
+            <div class="container simple-section">
+                <span class="section-icon">💬</span>
+                <h2>Connect With Sellers</h2>
+
+                <p>
+                    Contact product sellers and accommodation providers
+                    to ask questions and arrange transactions.
+                </p>
+
+                <p class="feature-note">
+                    Messaging will be implemented when we add JavaScript
+                    and backend services.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- PROFILE PLACEHOLDER -->
+        <section class="profile-section section-padding" id="profile">
+            <div class="container simple-section">
+                <span class="section-icon">👤</span>
+                <h2>Your CAMPUS Account</h2>
+
+                <p>
+                    Your account will let you manage your listings,
+                    save products and update your profile.
+                </p>
+
+                <p class="feature-note">
+                    Account registration and login will be added later.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="logo-icon">C</span>
+                    <span>CAMPUS</span>
+                </a>
+
+                <p>
+                    Buy, sell and find your space.
+                    Built with students in mind.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Marketplace</h3>
+                <a href="#marketplace">Browse Products</a>
+                <a href="#sell">Sell Products</a>
+                <a href="#categories">Categories</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Accommodation</h3>
+                <a href="#accommodation">Find a Room</a>
+                <a href="#post-product">List an Item</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Account</h3>
+                <a href="#profile">My Account</a>
+                <a href="#messages">Messages</a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                &copy; 2026 CAMPUS. All rights reserved.
+            </p>
+
+            <p>
+                A student marketplace concept for Malawi.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
